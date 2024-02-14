@@ -1,0 +1,428 @@
+2024-01-15 11:22:29.401 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10220 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 11:22:29.499 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 11:22:30.887 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 11:22:30.907 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 11:22:30.909 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 11:22:30.910 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 11:22:31.358 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:22:31.358 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1709 ms
+2024-01-15 11:22:31.434 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 11:22:31.637 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 11:22:32.133 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 11:22:32.151 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 11:22:32.161 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.621 seconds (JVM running for 8.258)
+2024-01-15 11:22:44.220 INFO  [http-nio-80-exec-5][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:22:44.220 INFO  [http-nio-80-exec-5][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:22:44.221 INFO  [http-nio-80-exec-5][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 0 ms
+2024-01-15 11:22:44.256 ERROR [http-nio-80-exec-5][org.apache.juli.logging.DirectJDKLog:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.yy.bscRobot.mapper.UserInfoMapper.insert] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.yy.bscRobot.mapper.UserInfoMapper.insert
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.sun.proxy.$Proxy74.insert(Unknown Source) ~[?:?]
+	at com.yy.bscRobot.service.UserInfoService.insertUserInfo(UserInfoService.java:16) ~[classes/:?]
+	at com.yy.bscRobot.controller.UserInfoController.test(UserInfoController.java:34) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_201]
+2024-01-15 11:24:50.083 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 11:24:50.084 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 11:24:56.420 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 8940 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 11:24:56.459 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 11:24:57.347 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 11:24:57.356 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 11:24:57.356 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 11:24:57.357 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 11:24:57.532 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 11:24:57.533 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1031 ms
+2024-01-15 11:24:57.601 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 11:24:57.762 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 11:24:58.385 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 11:24:58.402 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 11:24:58.413 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.344 seconds (JVM running for 4.158)
+2024-01-15 11:25:07.539 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 11:25:07.539 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 11:25:07.540 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 17:22:01.274 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 17:22:01.275 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 17:23:29.993 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 13236 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 17:23:30.003 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 17:23:31.232 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 17:23:31.250 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 17:23:31.250 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 17:23:31.250 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 17:23:31.573 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 17:23:31.573 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1479 ms
+2024-01-15 17:23:31.646 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 17:23:31.846 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 17:23:32.509 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 17:23:32.529 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 17:23:32.546 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.934 seconds (JVM running for 6.257)
+2024-01-15 17:23:40.916 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 17:23:40.916 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 17:23:40.917 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 17:36:28.620 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 17:36:28.645 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 17:43:14.173 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 12944 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 17:43:14.245 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 17:43:16.079 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 17:43:16.091 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 17:43:16.092 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 17:43:16.092 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 17:43:16.341 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 17:43:16.341 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1997 ms
+2024-01-15 17:43:16.453 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 17:43:16.700 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 17:43:17.319 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 17:43:17.341 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 17:43:17.355 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.877 seconds (JVM running for 6.554)
+2024-01-15 17:49:54.500 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 17:49:54.502 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 17:51:18.101 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 12720 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 17:51:18.109 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 17:51:19.753 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 17:51:19.769 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 17:51:19.769 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 17:51:19.769 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 17:51:20.106 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 17:51:20.107 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1842 ms
+2024-01-15 17:51:20.187 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 17:51:20.381 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 17:51:21.019 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 17:51:21.037 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 17:51:21.047 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.522 seconds (JVM running for 7.467)
+2024-01-15 17:51:56.373 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 17:51:56.374 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 17:51:56.375 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 17:52:20.399 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 17:52:20.433 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 17:52:52.434 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 9608 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 17:52:52.475 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 17:52:53.361 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 17:52:53.369 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 17:52:53.369 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 17:52:53.370 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 17:52:53.551 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 17:52:53.551 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1035 ms
+2024-01-15 17:52:53.623 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 17:52:53.783 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 17:52:54.225 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 17:52:54.242 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 17:52:54.253 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.183 seconds (JVM running for 4.035)
+2024-01-15 17:53:14.047 INFO  [http-nio-80-exec-2][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 17:53:14.047 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 17:53:14.048 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 17:56:21.494 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 17:56:21.505 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 18:28:49.043 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 14252 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 18:28:49.077 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 18:28:51.164 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 18:28:51.186 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 18:28:51.187 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 18:28:51.187 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 18:28:51.750 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 18:28:51.751 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2484 ms
+2024-01-15 18:28:51.917 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 18:28:52.296 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 18:28:53.457 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 18:28:53.484 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 18:28:53.500 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 5.36 seconds (JVM running for 9.794)
+2024-01-15 21:09:30.535 INFO  [http-nio-80-exec-2][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:09:30.535 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:09:30.536 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 21:10:14.906 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 6348 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 21:10:14.916 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 21:10:16.546 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 21:10:16.563 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 21:10:16.564 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 21:10:16.564 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 21:10:16.888 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 21:10:16.888 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1810 ms
+2024-01-15 21:10:16.973 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 21:10:17.105 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 21:10:17.932 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 21:10:17.954 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 21:10:17.967 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.961 seconds (JVM running for 8.648)
+2024-01-15 21:10:24.548 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:10:24.548 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:10:24.549 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 21:11:23.308 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 21:11:23.343 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 21:14:13.947 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 12564 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 21:14:13.987 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 21:14:14.917 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 21:14:14.925 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 21:14:14.927 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 21:14:14.927 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 21:14:15.113 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 21:14:15.113 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1085 ms
+2024-01-15 21:14:15.183 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 21:14:15.374 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 21:14:15.889 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 21:14:15.910 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 21:14:15.926 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.327 seconds (JVM running for 4.704)
+2024-01-15 21:14:30.848 INFO  [http-nio-80-exec-3][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:14:30.848 INFO  [http-nio-80-exec-3][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:14:30.849 INFO  [http-nio-80-exec-3][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 21:17:37.256 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 21:17:37.266 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 21:18:58.901 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 13236 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 21:18:58.918 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 21:18:59.878 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 21:18:59.886 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 21:18:59.887 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 21:18:59.887 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 21:19:00.115 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 21:19:00.116 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1118 ms
+2024-01-15 21:19:00.188 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 21:19:00.281 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 21:19:00.936 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 21:19:00.957 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 21:19:00.968 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.415 seconds (JVM running for 4.831)
+2024-01-15 21:19:04.885 INFO  [http-nio-80-exec-2][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:19:04.885 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:19:04.886 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 21:21:29.036 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 21:21:29.042 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 21:21:55.485 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 13340 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 21:21:55.525 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 21:21:56.418 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 21:21:56.426 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 21:21:56.427 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 21:21:56.427 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 21:21:56.597 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 21:21:56.599 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1033 ms
+2024-01-15 21:21:56.667 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 21:21:56.828 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 21:21:57.291 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 21:21:57.308 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 21:21:57.319 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.169 seconds (JVM running for 4.276)
+2024-01-15 21:22:11.953 INFO  [http-nio-80-exec-2][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:22:11.953 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:22:11.954 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 21:22:19.876 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 21:22:19.881 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 21:49:17.765 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 9380 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 21:49:17.830 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 21:49:19.809 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 21:49:19.821 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 21:49:19.822 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 21:49:19.823 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 21:49:20.083 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 21:49:20.083 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2183 ms
+2024-01-15 21:49:20.172 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 21:49:20.370 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 21:49:20.972 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 21:49:20.994 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 21:49:21.009 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.749 seconds (JVM running for 5.589)
+2024-01-15 21:49:25.346 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:49:25.346 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:49:25.347 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 21:49:26.351 INFO  [http-nio-80-exec-1][com.yy.bscRobot.service.WalletInfoService:55] - id为{0}的用户生成地址为{1}的新钱包
+2024-01-15 21:51:47.883 INFO  [http-nio-80-exec-6][com.yy.bscRobot.service.WalletInfoService:55] - id为{0}的用户生成地址为{1}的新钱包
+2024-01-15 21:51:47.978 INFO  [http-nio-80-exec-6][com.yy.bscRobot.service.WalletInfoService:55] - id为{0}的用户生成地址为{1}的新钱包
+2024-01-15 21:51:48.095 INFO  [http-nio-80-exec-6][com.yy.bscRobot.service.WalletInfoService:55] - id为{0}的用户生成地址为{1}的新钱包
+2024-01-15 21:51:48.195 INFO  [http-nio-80-exec-6][com.yy.bscRobot.service.WalletInfoService:55] - id为{0}的用户生成地址为{1}的新钱包
+2024-01-15 21:51:48.313 INFO  [http-nio-80-exec-6][com.yy.bscRobot.service.WalletInfoService:55] - id为{0}的用户生成地址为{1}的新钱包
+2024-01-15 21:53:13.596 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 21:53:13.604 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 21:53:51.439 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 2060 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 21:53:51.483 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 21:53:52.437 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 21:53:52.446 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 21:53:52.446 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 21:53:52.447 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 21:53:52.653 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 21:53:52.653 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1126 ms
+2024-01-15 21:53:52.722 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 21:53:52.891 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 21:53:53.432 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 21:53:53.453 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 21:53:53.466 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.392 seconds (JVM running for 4.163)
+2024-01-15 21:53:55.560 INFO  [http-nio-80-exec-2][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 21:53:55.561 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 21:53:55.562 INFO  [http-nio-80-exec-2][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 0 ms
+2024-01-15 21:53:56.567 INFO  [http-nio-80-exec-2][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0xdece5901c6c61180344d63da47e31f238ec19339的新钱包
+2024-01-15 21:53:56.671 INFO  [http-nio-80-exec-2][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x616d680c6c252f36beee98919471d664d5e41879的新钱包
+2024-01-15 21:53:56.769 INFO  [http-nio-80-exec-2][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x056079ac169cfb1b84646b0856871d623eb7bc7c的新钱包
+2024-01-15 21:53:56.862 INFO  [http-nio-80-exec-2][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0xb703f8479bfeb0871ed913360d590b9a6bc5adbc的新钱包
+2024-01-15 21:53:56.984 INFO  [http-nio-80-exec-2][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x73c290c50cffb50250197bf1fd2d46200a44c5a8的新钱包
+2024-01-15 22:12:21.847 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 22:12:21.856 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 22:15:23.275 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 6808 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 22:15:23.319 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 22:15:24.293 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 22:15:24.301 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 22:15:24.301 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 22:15:24.302 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 22:15:24.482 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 22:15:24.483 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1112 ms
+2024-01-15 22:15:24.557 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 22:15:24.722 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 22:15:25.186 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 22:15:25.203 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 22:15:25.214 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.332 seconds (JVM running for 4.216)
+2024-01-15 22:15:43.647 INFO  [http-nio-80-exec-4][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 22:15:43.647 INFO  [http-nio-80-exec-4][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 22:15:43.648 INFO  [http-nio-80-exec-4][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 22:15:50.037 INFO  [http-nio-80-exec-5][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x6f52f6748a7e4d1e356b0e5fa73a13a515c3849e的新钱包
+2024-01-15 22:15:50.149 INFO  [http-nio-80-exec-5][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x5d3031400028fa235c3a819023cbf00c55bed5b4的新钱包
+2024-01-15 22:15:50.247 INFO  [http-nio-80-exec-5][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0xa916036698c5d19c9b4c122dadfd303a36a62df4的新钱包
+2024-01-15 22:15:50.344 INFO  [http-nio-80-exec-5][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x7f6d6e5051b6dcf2ffee7299ce178110b1628707的新钱包
+2024-01-15 22:15:50.440 INFO  [http-nio-80-exec-5][com.yy.bscRobot.service.WalletInfoService:55] - id为4的用户生成地址为0x5246d879e74b9827ea43f94acd0705ce45399866的新钱包
+2024-01-15 22:16:08.776 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 22:16:08.782 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 22:25:28.587 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 14012 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 22:25:28.626 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 22:25:29.531 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 22:25:29.539 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 22:25:29.540 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 22:25:29.540 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 22:25:29.715 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 22:25:29.716 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1047 ms
+2024-01-15 22:25:29.784 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 22:25:29.958 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 22:25:30.450 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 22:25:30.469 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 22:25:30.480 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.24 seconds (JVM running for 4.031)
+2024-01-15 22:26:49.285 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 22:26:49.285 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 22:26:49.286 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 22:27:47.653 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 22:27:47.672 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 22:30:21.010 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 4272 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 22:30:21.053 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 22:30:21.962 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 22:30:21.971 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 22:30:21.972 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 22:30:21.972 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 22:30:22.148 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 22:30:22.148 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1053 ms
+2024-01-15 22:30:22.219 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 22:30:22.380 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 22:30:22.851 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 22:30:22.869 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 22:30:22.880 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.245 seconds (JVM running for 4.168)
+2024-01-15 22:30:39.773 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 22:30:39.774 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 22:30:39.774 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 0 ms
+2024-01-15 22:30:51.934 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 22:30:51.940 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 22:31:09.002 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10472 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 22:31:09.045 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 22:31:10.055 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 22:31:10.063 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 22:31:10.064 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 22:31:10.064 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 22:31:10.244 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 22:31:10.244 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1157 ms
+2024-01-15 22:31:10.312 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 22:31:10.474 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 22:31:11.311 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 22:31:11.341 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 22:31:11.358 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.716 seconds (JVM running for 4.527)
+2024-01-15 22:31:15.537 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 22:31:15.537 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 22:31:15.538 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 22:35:08.449 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 22:35:08.454 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 22:36:25.658 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 7540 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 22:36:25.701 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 22:36:26.611 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 22:36:26.619 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 22:36:26.619 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 22:36:26.620 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 22:36:26.799 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 22:36:26.799 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1055 ms
+2024-01-15 22:36:26.893 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 22:36:27.052 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 22:36:27.529 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 22:36:27.548 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 22:36:27.560 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.261 seconds (JVM running for 4.1)
+2024-01-15 22:36:30.459 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 22:36:30.459 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 22:36:30.460 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 0 ms
+2024-01-15 22:36:47.331 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 22:36:47.337 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 23:14:25.800 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 12388 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 23:14:25.839 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 23:14:26.748 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 23:14:26.757 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 23:14:26.757 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 23:14:26.757 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 23:14:26.935 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 23:14:26.935 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1056 ms
+2024-01-15 23:14:27.001 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 23:14:27.156 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 23:14:27.777 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 23:14:27.794 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 23:14:27.804 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.317 seconds (JVM running for 4.578)
+2024-01-15 23:14:32.037 INFO  [http-nio-80-exec-3][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 23:14:32.037 INFO  [http-nio-80-exec-3][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 23:14:32.038 INFO  [http-nio-80-exec-3][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2024-01-15 23:15:59.938 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-15 23:15:59.954 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-15 23:24:13.327 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 9588 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-15 23:24:13.368 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-15 23:24:14.302 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-15 23:24:14.310 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-15 23:24:14.311 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-15 23:24:14.311 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-15 23:24:14.495 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 23:24:14.495 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1087 ms
+2024-01-15 23:24:14.564 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-15 23:24:14.738 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-15 23:24:15.222 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-15 23:24:15.242 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-15 23:24:15.253 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.337 seconds (JVM running for 4.195)
+2024-01-15 23:24:17.509 INFO  [http-nio-80-exec-1][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-15 23:24:17.510 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-15 23:24:17.512 INFO  [http-nio-80-exec-1][org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms

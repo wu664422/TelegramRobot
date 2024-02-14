@@ -1,0 +1,305 @@
+2024-01-31 00:01:17.637 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10704 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-31 00:01:17.705 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-31 00:01:19.329 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-31 00:01:19.344 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-31 00:01:19.344 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-31 00:01:19.345 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-31 00:01:19.518 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-31 00:01:19.518 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1747 ms
+2024-01-31 00:01:19.642 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-31 00:01:19.762 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-31 00:01:20.602 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-31 00:01:20.620 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-31 00:01:20.631 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.427 seconds (JVM running for 11.662)
+2024-01-31 00:02:15.069 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:15.507 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:15.667 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:15.879 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:16.090 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:16.237 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:16.387 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:16.713 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:16.792 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:02:16.866 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:16.939 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7980333443468694
+2024-01-31 00:02:17.013 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.089 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:02:17.164 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.237 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:02:17.308 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.381 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:02:17.454 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.528 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:02:17.599 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.673 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:02:17.750 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.832 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:02:17.909 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:17.986 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:02:28.943 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:29.099 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:29.246 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:29.397 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:29.774 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:02:29.924 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:03:29.031 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:03:29.195 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:03:29.345 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:03:29.496 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:03:29.655 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:03:29.810 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:05:16.906 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:05:17.057 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:05:17.220 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:05:17.369 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:05:17.518 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:05:17.667 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:31:00.616 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-31 00:31:00.630 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-31 00:31:22.748 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 3348 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-31 00:31:22.764 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-31 00:31:24.373 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-31 00:31:24.386 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-31 00:31:24.386 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-31 00:31:24.387 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-31 00:31:24.596 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-31 00:31:24.597 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1774 ms
+2024-01-31 00:31:24.700 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-31 00:31:24.846 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-31 00:31:25.810 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-31 00:31:25.843 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-31 00:31:25.863 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.549 seconds (JVM running for 9.533)
+2024-01-31 00:31:59.591 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:31:59.910 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:00.114 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:00.324 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:00.525 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:00.730 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:00.940 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:01.180 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:01.285 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:32:01.384 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:01.485 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7416677443468694
+2024-01-31 00:32:01.585 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:01.684 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:32:01.782 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:01.886 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:32:01.982 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:02.081 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:32:02.178 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:02.278 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:32:02.377 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:02.481 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:32:02.596 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:02.701 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:32:02.805 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:02.908 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:32:13.270 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:13.369 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:32:13.468 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:13.570 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7416677443468694
+2024-01-31 00:32:13.667 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:13.767 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:32:13.865 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:13.969 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:32:14.067 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:14.169 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:32:14.268 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:14.371 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:32:14.469 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:14.569 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:32:14.668 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:14.768 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:32:14.866 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:14.966 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:32:15.065 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:15.268 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:15.467 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:15.669 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:15.885 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:16.086 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:16.286 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:50.350 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:50.450 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:32:50.576 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:50.725 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7416677443468694
+2024-01-31 00:32:50.866 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:50.968 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:32:51.071 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:51.171 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:32:51.272 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:51.372 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:32:51.472 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:51.574 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:32:51.679 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:51.785 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:32:51.887 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:51.991 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:32:52.088 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:52.192 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:32:52.304 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:52.508 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:52.712 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:52.920 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:53.126 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:53.326 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:32:53.523 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:33:06.714 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-31 00:33:06.735 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-31 00:36:57.406 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 11104 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-31 00:36:57.416 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-31 00:36:58.411 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-31 00:36:58.419 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-31 00:36:58.420 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-31 00:36:58.420 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-31 00:36:58.567 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-31 00:36:58.568 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1115 ms
+2024-01-31 00:36:58.636 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-31 00:36:58.733 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-31 00:36:59.240 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-31 00:36:59.258 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-31 00:36:59.269 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.171 seconds (JVM running for 6.315)
+2024-01-31 00:37:24.294 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:24.616 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:24.843 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:25.064 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:25.287 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:25.514 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:25.754 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:26.019 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:26.132 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:37:26.241 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:26.357 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7416677443468694
+2024-01-31 00:37:26.468 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:26.580 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:37:26.689 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:26.806 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:37:26.914 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:27.025 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:37:27.147 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:27.275 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:37:27.387 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:27.504 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:37:27.614 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:27.793 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:37:27.953 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:28.098 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:37:35.983 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:36.092 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:37:36.200 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:36.309 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7416677443468694
+2024-01-31 00:37:36.427 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:36.538 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:37:36.646 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:36.754 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:37:36.862 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:36.974 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:37:37.087 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:37.196 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:37:37.321 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:37.444 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:37:37.553 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:37.666 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:37:37.806 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:37.955 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:37:38.091 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:38.346 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:38.817 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:39.066 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:39.297 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:39.517 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:37:39.769 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:38:17.019 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-31 00:38:17.029 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-31 00:44:10.451 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 4500 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-31 00:44:10.460 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-31 00:44:11.486 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-31 00:44:11.494 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-31 00:44:11.495 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-31 00:44:11.495 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-31 00:44:11.633 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-31 00:44:11.633 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1137 ms
+2024-01-31 00:44:11.702 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-31 00:44:11.798 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-31 00:44:12.288 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-31 00:44:12.305 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-31 00:44:12.316 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.206 seconds (JVM running for 6.65)
+2024-01-31 00:44:36.534 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:36.779 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:36.934 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.085 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.237 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.385 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.535 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.722 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.809 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x85e3fda60c5b1786b7daf6242c507df8994aebd7的BNB余额为2812920229173008
+2024-01-31 00:44:37.884 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:37.959 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的BNB余额为7416677443468694
+2024-01-31 00:44:38.030 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:38.102 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的BNB余额为1047000000000000
+2024-01-31 00:44:38.176 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:38.250 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xa079aae4ff24e746dbda1cb80135dc6830b27d31的BNB余额为12000000000000000
+2024-01-31 00:44:38.323 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:38.396 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x143cb8db26cd6764432314a8be86baef252d86fd的BNB余额为0
+2024-01-31 00:44:38.509 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:38.585 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x180cf4f7ae97fbf95182cf712943885a7663a08f的BNB余额为0
+2024-01-31 00:44:38.739 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:38.814 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0xf4b2cc9f5636202fb490d3a3c74dab6a5c8a6481的BNB余额为0
+2024-01-31 00:44:38.952 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:39.095 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x03bea65683ae3dff53da442c695ddd48f57d5065的BNB余额为0
+2024-01-31 00:44:39.259 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:44:39.403 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:69] - 地址0x4824ae479865ee16fb5f998250f403406c8098d5的BNB余额为0
+2024-01-31 00:45:14.661 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:14.813 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:14.965 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.113 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.259 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.407 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.559 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.712 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.859 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:15.934 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:22.379 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:22.526 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:22.671 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:22.818 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:22.964 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.109 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.252 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.398 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.547 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.620 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.854 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:23.934 INFO  [bsc664422_bot Telegram Executor][com.yy.bscRobot.service.Web3Service:54] - 当前web3的版本信息是：56
+2024-01-31 00:45:39.607 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-31 00:45:39.614 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-31 01:00:53.449 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 11208 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-31 01:00:53.479 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-31 01:00:55.697 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-31 01:00:55.712 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-31 01:00:55.713 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-31 01:00:55.713 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-31 01:00:55.968 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-31 01:00:55.969 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2422 ms
+2024-01-31 01:00:56.081 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-31 01:00:56.239 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-31 01:00:57.125 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-31 01:00:57.152 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-31 01:00:57.166 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.206 seconds (JVM running for 14.151)
+2024-01-31 01:03:19.732 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-31 01:03:19.736 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-31 01:03:39.403 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 2564 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-31 01:03:39.412 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-31 01:03:40.431 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-31 01:03:40.445 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-31 01:03:40.446 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-31 01:03:40.447 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-31 01:03:40.618 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-31 01:03:40.619 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1169 ms
+2024-01-31 01:03:40.707 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-31 01:03:40.804 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-31 01:03:41.298 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-31 01:03:41.315 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-31 01:03:41.326 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.225 seconds (JVM running for 9.906)
+2024-01-31 01:04:03.280 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-31 01:04:03.296 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed

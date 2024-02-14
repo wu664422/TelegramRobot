@@ -1,0 +1,1533 @@
+2024-01-19 11:45:20.973 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:395) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:354) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 11:45:21.699 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:395) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:354) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 11:54:19.002 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 11:54:19.003 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 11:54:43.377 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 13600 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 11:54:43.393 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 11:54:45.612 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 11:54:45.633 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 11:54:45.634 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 11:54:45.635 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 11:54:45.907 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 11:54:45.907 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2418 ms
+2024-01-19 11:54:46.068 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 11:54:46.249 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 11:54:47.240 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 11:54:47.275 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 11:54:47.294 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.682 seconds (JVM running for 15.161)
+2024-01-19 11:56:02.645 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 11:56:02.660 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 11:56:36.864 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 6644 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 11:56:36.873 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 11:56:37.943 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 11:56:37.953 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 11:56:37.954 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 11:56:37.954 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 11:56:38.130 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 11:56:38.130 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1220 ms
+2024-01-19 11:56:38.212 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 11:56:38.324 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 11:56:38.933 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 11:56:38.956 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 11:56:38.970 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.408 seconds (JVM running for 7.615)
+2024-01-19 14:11:58.116 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 14:11:58.118 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 15:15:48.381 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10784 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 15:15:48.403 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 15:15:50.000 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 15:15:50.016 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 15:15:50.016 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 15:15:50.017 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 15:15:50.167 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 15:15:50.167 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1697 ms
+2024-01-19 15:15:50.291 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 15:15:50.426 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 15:15:51.242 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 15:15:51.261 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 15:15:51.272 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.357 seconds (JVM running for 10.957)
+2024-01-19 15:57:42.696 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 15:57:42.699 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:03:38.834 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 5776 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:03:38.852 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:03:40.998 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:03:41.021 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:03:41.021 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:03:41.022 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:03:41.255 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:03:41.256 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2278 ms
+2024-01-19 17:03:41.391 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:03:41.547 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:03:42.559 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:03:42.591 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:03:42.610 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.346 seconds (JVM running for 12.082)
+2024-01-19 17:04:05.182 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:65) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 17:06:00.082 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:65) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 17:06:01.730 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:06:01.754 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:06:40.825 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 8880 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:06:40.856 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:06:42.998 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:06:43.015 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:06:43.016 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:06:43.016 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:06:43.317 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:06:43.318 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2338 ms
+2024-01-19 17:06:43.454 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:06:43.640 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:06:44.615 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:06:44.648 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:06:44.668 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.612 seconds (JVM running for 12.779)
+2024-01-19 17:07:44.702 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:07:44.728 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:08:33.336 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 1528 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:08:33.369 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:08:35.866 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:08:35.885 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:08:35.886 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:08:35.886 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:08:36.253 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:08:36.254 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2756 ms
+2024-01-19 17:08:36.409 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:08:36.621 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:08:37.746 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:08:37.788 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:08:37.814 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 5.344 seconds (JVM running for 13.635)
+2024-01-19 17:13:35.787 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:13:35.796 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:13:44.710 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 8692 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:13:44.719 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:13:45.743 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:13:45.751 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:13:45.753 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:13:45.753 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:13:45.900 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:13:45.900 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1139 ms
+2024-01-19 17:13:45.966 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:13:46.064 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:13:46.594 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:13:46.612 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:13:46.624 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.216 seconds (JVM running for 6.587)
+2024-01-19 17:15:51.615 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:15:51.646 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:16:00.095 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 4288 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:16:00.107 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:16:01.326 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:16:01.336 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:16:01.337 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:16:01.337 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:16:01.549 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:16:01.549 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1387 ms
+2024-01-19 17:16:01.656 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:16:01.782 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:16:02.446 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:16:02.470 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:16:02.485 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.749 seconds (JVM running for 7.041)
+2024-01-19 17:19:46.306 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:19:46.327 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:21:30.532 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 1684 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:21:30.541 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:21:31.500 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:21:31.509 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:21:31.509 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:21:31.510 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:21:31.655 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:21:31.655 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1077 ms
+2024-01-19 17:21:31.731 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:21:31.827 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:21:32.370 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:21:32.395 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:21:32.409 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.177 seconds (JVM running for 5.974)
+2024-01-19 17:23:57.169 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:23:57.181 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:48:15.253 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 7100 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:48:15.261 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:48:16.257 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:48:16.265 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:48:16.265 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:48:16.266 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:48:16.440 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:48:16.440 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1139 ms
+2024-01-19 17:48:16.555 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:48:16.659 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:48:17.215 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:48:17.233 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:48:17.246 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.329 seconds (JVM running for 7.303)
+2024-01-19 17:48:18.593 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:48:18.594 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:48:49.390 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10932 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:48:49.400 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:48:50.603 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:48:50.615 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:48:50.616 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:48:50.616 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:48:50.806 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:48:50.807 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1365 ms
+2024-01-19 17:48:50.897 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:48:51.020 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:48:51.715 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:48:51.738 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:48:51.752 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.677 seconds (JVM running for 7.798)
+2024-01-19 17:50:30.109 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:50:30.110 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:50:42.326 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10324 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:50:42.338 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:50:43.843 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:50:43.856 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:50:43.857 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:50:43.857 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:50:44.069 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:50:44.069 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1664 ms
+2024-01-19 17:50:44.172 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:50:44.306 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:50:45.147 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:50:45.179 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:50:45.197 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.253 seconds (JVM running for 9.042)
+2024-01-19 17:57:06.276 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 17:57:06.278 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 17:57:20.450 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 8232 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 17:57:20.464 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 17:57:22.064 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 17:57:22.078 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 17:57:22.078 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 17:57:22.079 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 17:57:22.326 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 17:57:22.327 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1808 ms
+2024-01-19 17:57:22.438 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 17:57:22.591 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 17:57:23.378 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 17:57:23.404 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 17:57:23.420 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.379 seconds (JVM running for 9.663)
+2024-01-19 18:00:46.155 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 18:00:46.158 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 18:05:56.428 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 1424 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 18:05:56.446 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 18:05:58.558 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 18:05:58.575 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 18:05:58.576 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 18:05:58.576 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 18:05:58.918 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 18:05:58.918 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2402 ms
+2024-01-19 18:05:59.078 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 18:05:59.283 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 18:06:00.262 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 18:06:00.302 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 18:06:00.323 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.412 seconds (JVM running for 12.669)
+2024-01-19 18:09:16.239 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10616 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 18:09:16.254 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 18:09:18.469 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 18:09:18.490 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 18:09:18.491 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 18:09:18.493 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 18:09:18.821 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 18:09:18.822 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2487 ms
+2024-01-19 18:09:18.975 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 18:09:19.166 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 18:09:20.138 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 18:09:20.175 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 18:09:20.198 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.344 seconds (JVM running for 11.652)
+2024-01-19 18:18:52.159 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 18:18:52.161 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 18:19:01.528 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10952 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 18:19:01.539 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 18:19:02.522 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 18:19:02.530 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 18:19:02.531 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 18:19:02.531 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 18:19:02.679 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 18:19:02.680 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1099 ms
+2024-01-19 18:19:02.757 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 18:19:02.861 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 18:19:03.350 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 18:19:03.369 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 18:19:03.380 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.21 seconds (JVM running for 6.694)
+2024-01-19 18:19:45.204 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 18:19:45.205 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 18:19:55.320 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 564 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 18:19:55.330 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 18:19:56.312 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 18:19:56.320 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 18:19:56.321 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 18:19:56.321 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 18:19:56.480 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 18:19:56.480 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1113 ms
+2024-01-19 18:19:56.577 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 18:19:56.682 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 18:19:57.198 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 18:19:57.217 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 18:19:57.235 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.217 seconds (JVM running for 6.954)
+2024-01-19 18:20:21.209 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 18:20:21.209 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 18:20:41.315 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 7472 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 18:20:41.327 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 18:20:42.669 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 18:20:42.681 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 18:20:42.681 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 18:20:42.682 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 18:20:42.900 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 18:20:42.900 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1533 ms
+2024-01-19 18:20:42.987 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 18:20:43.095 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 18:20:43.659 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 18:20:43.679 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 18:20:43.690 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.698 seconds (JVM running for 7.408)
+2024-01-19 18:20:57.662 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 18:20:57.663 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 18:21:07.190 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 8712 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 18:21:07.199 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 18:21:08.210 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 18:21:08.218 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 18:21:08.218 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 18:21:08.219 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 18:21:08.376 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 18:21:08.376 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1138 ms
+2024-01-19 18:21:08.447 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 18:21:08.545 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 18:21:09.062 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 18:21:09.080 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 18:21:09.092 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.203 seconds (JVM running for 6.52)
+2024-01-19 20:52:50.017 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 20:52:50.020 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 21:24:35.919 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 3820 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 21:24:35.932 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 21:24:37.715 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 21:24:37.729 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 21:24:37.729 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 21:24:37.730 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 21:24:37.942 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 21:24:37.942 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1942 ms
+2024-01-19 21:24:38.083 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 21:24:38.236 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 21:24:39.132 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 21:24:39.164 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 21:24:39.179 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.73 seconds (JVM running for 12.506)
+2024-01-19 21:24:49.732 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - text is marked non-null but is null
+java.lang.NullPointerException: text is marked non-null but is null
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.<init>(SendMessage.java:39) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage$SendMessageBuilder.build(SendMessage.java:40) ~[telegrambots-meta-6.0.1.jar:?]
+	at com.yy.bscRobot.robot.SendMessageUIHandler.walletListButtonUI(SendMessageUIHandler.java:124) ~[classes/:?]
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:66) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 21:25:37.457 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 21:25:37.470 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 21:25:53.971 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 4288 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 21:25:53.988 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 21:25:56.039 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 21:25:56.056 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 21:25:56.056 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 21:25:56.057 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 21:25:56.363 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 21:25:56.363 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2305 ms
+2024-01-19 21:25:56.502 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 21:25:56.686 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 21:25:57.633 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 21:25:57.665 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 21:25:57.685 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.219 seconds (JVM running for 11.741)
+2024-01-19 21:26:41.470 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 21:26:41.519 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 21:27:04.215 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 11104 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 21:27:04.229 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 21:27:06.057 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 21:27:06.074 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 21:27:06.075 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 21:27:06.075 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 21:27:06.370 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 21:27:06.370 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2074 ms
+2024-01-19 21:27:06.507 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 21:27:06.695 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 21:27:07.680 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 21:27:07.714 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 21:27:07.735 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.016 seconds (JVM running for 11.706)
+2024-01-19 21:27:20.202 ERROR [Druid-ConnectionPool-Create-1481417616][com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread:2717] - create connection SQLException, url: jdbc:mysql://154.204.57.128:3306/bsc_robot_test?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1643) ~[druid-1.1.20.jar:1.1.20]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1709) ~[druid-1.1.20.jar:1.1.20]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2715) ~[druid-1.1.20.jar:1.1.20]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_201]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:520) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:475) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:362) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1367) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:949) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	... 6 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:514) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:475) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:362) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1367) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:949) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	... 6 more
+2024-01-19 21:28:15.733 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 21:28:15.737 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 21:28:29.875 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 2112 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 21:28:29.888 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 21:28:31.370 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 21:28:31.384 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 21:28:31.384 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 21:28:31.385 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 21:28:31.613 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 21:28:31.613 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1670 ms
+2024-01-19 21:28:31.718 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 21:28:31.868 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 21:28:32.625 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 21:28:32.653 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 21:28:32.670 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.177 seconds (JVM running for 10.551)
+2024-01-19 21:52:28.809 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 21:52:28.815 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 21:52:38.748 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 9800 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 21:52:38.758 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 21:52:39.913 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 21:52:39.923 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 21:52:39.924 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 21:52:39.924 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 21:52:40.080 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 21:52:40.080 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1281 ms
+2024-01-19 21:52:40.175 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 21:52:40.277 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 21:52:40.778 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 21:52:40.796 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 21:52:40.807 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.382 seconds (JVM running for 7.257)
+2024-01-19 21:57:07.691 INFO  [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:270] - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_201]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_201]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_201]
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933) ~[?:1.8.0_201]
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[?:1.8.0_201]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 21:57:29.225 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:57:50.749 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:58:12.265 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:58:33.769 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/103.252.114.61] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:58:55.281 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:59:16.794 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:59:38.302 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 21:59:59.819 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/208.43.237.140] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:00:21.343 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:00:42.847 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:01:04.381 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:01:25.894 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:01:47.397 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:02:08.900 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/202.160.130.118] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:02:30.413 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:02:51.927 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:03:13.435 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:03:34.950 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:03:56.465 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:04:17.976 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:04:39.494 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:05:01.008 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:05:22.527 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:05:44.034 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/199.59.148.97] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:06:05.548 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:06:27.051 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:06:48.564 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:07:10.080 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:07:31.596 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:07:53.104 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:08:14.619 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:08:36.135 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:268] - Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/173.252.88.67] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:338) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.4.jar:4.4]
+	... 10 more
+2024-01-19 22:08:54.873 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 22:08:54.886 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 22:37:21.410 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 6976 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 22:37:21.418 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 22:37:22.749 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 22:37:22.765 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 22:37:22.766 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 22:37:22.766 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 22:37:22.928 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 22:37:22.928 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1456 ms
+2024-01-19 22:37:23.090 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 22:37:23.221 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 22:37:23.988 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 22:37:24.008 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 22:37:24.021 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.009 seconds (JVM running for 7.419)
+2024-01-19 22:38:58.787 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-19 22:38:58.804 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-19 22:39:12.865 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 10272 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-19 22:39:12.875 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-19 22:39:13.955 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-19 22:39:13.964 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-19 22:39:13.964 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-19 22:39:13.964 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-19 22:39:14.111 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-19 22:39:14.112 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1198 ms
+2024-01-19 22:39:14.189 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-19 22:39:14.300 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-19 22:39:14.849 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-19 22:39:14.871 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-19 22:39:14.884 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.347 seconds (JVM running for 7.051)
+2024-01-19 22:39:28.368 ERROR [Druid-ConnectionPool-Create-2004952636][com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread:2717] - create connection SQLException, url: jdbc:mysql://154.204.57.128:3306/bsc_robot_test?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1643) ~[druid-1.1.20.jar:1.1.20]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1709) ~[druid-1.1.20.jar:1.1.20]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2715) ~[druid-1.1.20.jar:1.1.20]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_201]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:520) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:475) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:362) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1367) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:949) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	... 6 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:514) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:475) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:362) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1367) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:949) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	... 6 more
+2024-01-19 23:08:41.714 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_201]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:08:42.341 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:08:43.134 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:08:43.718 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:08:44.841 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:08:46.919 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:08:49.894 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:09:04.701 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_201]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]
+2024-01-19 23:09:13.476 ERROR [jason665522_bot Telegram Connection][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread:212] - api.telegram.org
+java.net.UnknownHostException: api.telegram.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_201]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_201]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.4.jar:4.4]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.4.jar:4.4]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.0.1.jar:?]

@@ -1,0 +1,89 @@
+2024-01-21 00:50:34.247 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:58) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-21 00:50:35.893 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:58) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-21 00:50:39.523 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:58) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-21 00:50:43.807 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:58) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-21 00:51:28.324 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-21 00:51:28.328 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-21 00:51:45.802 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 12204 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-21 00:51:45.811 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-21 00:51:47.285 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-21 00:51:47.300 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-21 00:51:47.300 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-21 00:51:47.301 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-21 00:51:47.547 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-21 00:51:47.547 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1684 ms
+2024-01-21 00:51:47.639 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-21 00:51:47.769 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-21 00:51:48.536 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-21 00:51:48.553 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-21 00:51:48.564 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 3.136 seconds (JVM running for 11.845)
+2024-01-21 02:04:17.550 ERROR [jason665522_bot Telegram Executor][org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread:322] - null
+java.lang.NullPointerException: null
+	at com.yy.bscRobot.robot.MyBot.onUpdateReceived(MyBot.java:58) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_201]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.0.1.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.0.1.jar:?]
+2024-01-21 02:13:44.877 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-21 02:13:44.884 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-21 02:14:10.185 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 3244 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-21 02:14:10.193 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-21 02:14:12.034 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-21 02:14:12.075 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-21 02:14:12.077 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-21 02:14:12.077 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-21 02:14:12.255 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-21 02:14:12.256 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1978 ms
+2024-01-21 02:14:12.340 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-21 02:14:12.595 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-21 02:14:13.809 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-21 02:14:13.826 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-21 02:14:13.838 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 4.522 seconds (JVM running for 17.228)
+2024-01-21 02:14:59.261 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-21 02:14:59.267 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
+2024-01-21 02:16:07.729 INFO  [main][org.springframework.boot.StartupInfoLogger:55] - Starting BscRobotAppication using Java 1.8.0_201 on PC-20190222MJLK with PID 4864 (D:\Project\TelegramRobot\BscRobot\target\classes started by Administrator in D:\Project\TelegramRobot)
+2024-01-21 02:16:07.739 INFO  [main][org.springframework.boot.SpringApplication:646] - The following 1 profile is active: "default"
+2024-01-21 02:16:08.727 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 80 (http)
+2024-01-21 02:16:08.735 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-80"]
+2024-01-21 02:16:08.735 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2024-01-21 02:16:08.736 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-21 02:16:08.885 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2024-01-21 02:16:08.886 INFO  [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1107 ms
+2024-01-21 02:16:08.981 INFO  [main][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2024-01-21 02:16:09.102 INFO  [main][com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2024-01-21 02:16:09.633 INFO  [main][org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-80"]
+2024-01-21 02:16:09.653 INFO  [main][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 80 (http) with context path ''
+2024-01-21 02:16:09.665 INFO  [main][org.springframework.boot.StartupInfoLogger:61] - Started BscRobotAppication in 2.246 seconds (JVM running for 9.743)
+2024-01-21 02:26:44.396 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0x725d016643d9c7c3037022dafa717a3243f32789的新钱包
+2024-01-21 02:26:53.524 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0xa8b61c7913e1121801615339489ff0c377b93c34的新钱包
+2024-01-21 02:26:53.655 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0x8ffb91e7dc77fa74f80993bcc950d9d27bc4f951的新钱包
+2024-01-21 02:26:53.773 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0x911a1d6efc94346fb5a6a490d88a09d979d140ed的新钱包
+2024-01-21 02:26:53.897 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0x7b7a4a6511e0a104292295d58e2936b073546304的新钱包
+2024-01-21 02:26:54.013 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0x5d6957a4d10f68b8d42c8dd4e450bcf3d62d63e1的新钱包
+2024-01-21 02:27:33.162 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为7的用户生成地址为0x2eb39d58d550844f345cd7626fb13e219dbf3a5f的新钱包
+2024-01-21 14:38:48.091 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为6的用户生成地址为0x85e3fda60c5b1786b7daf6242c507df8994aebd7的新钱包
+2024-01-21 14:38:48.436 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为6的用户生成地址为0xec7b41b306c222b4bbe1aca2f6fbd08e6be04af1的新钱包
+2024-01-21 14:38:48.548 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为6的用户生成地址为0xf9c856699d9c13d99c1ec9a56ccf4126b5255185的新钱包
+2024-01-21 14:38:48.670 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为6的用户生成地址为0xa079aae4ff24e746dbda1cb80135dc6830b27d31的新钱包
+2024-01-21 14:38:49.228 INFO  [jason665522_bot Telegram Executor][com.yy.bscRobot.service.WalletInfoService:71] - id为6的用户生成地址为0x143cb8db26cd6764432314a8be86baef252d86fd的新钱包
+2024-01-21 18:28:19.837 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:1965] - {dataSource-1} closing ...
+2024-01-21 18:28:19.839 INFO  [SpringApplicationShutdownHook][com.alibaba.druid.pool.DruidDataSource:2037] - {dataSource-1} closed
